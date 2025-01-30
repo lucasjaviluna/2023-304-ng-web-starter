@@ -1,6 +1,6 @@
 name: Manual workflow
 
-  on:
+on:
     workflow_dispatch:
       inputs:
         name:
@@ -9,7 +9,7 @@ name: Manual workflow
           required: true
           default: 'World'
 
-  jobs:
+jobs:
     greet:
       runs-on: ubuntu-latest
 
